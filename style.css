@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'dancingScript';
+    src: url('fonts/DancingScript-VariableFont_wght.ttf')
+}
+
+@font-face {
+    font-family: 'dancingScriptBold';
+    src: url('fonts/DancingScript-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'goshaSansBold';
+    src: url('fonts/PPGoshaSans-Bold.otf')
+}
+
+@font-face {
+    font-family: 'goshaSans';
+    src: url('fonts/PPGoshaSans-Regular.otf')
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: goshaSansBold, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background-image: url("https://mrwallpaper.com/images/hd/film-and-photography-studio-dyrmmuvsndbo9904.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+button:active {
+    transform: scale(.8);
+}
+
+.spotlight {
+    all: inherit;
+    background-image: url("https://nofilmschool.com/media-library/cinema-camera.jpg?id=34059597&width=1245&height=700&quality=90&coordinates=0%2C19%2C0%2C19");
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.58);
+
+}
+
+.spotlight .spotlightFilter {
+    background-color: rgba(255, 255, 255, 0.78);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.58);
+}
+
+header {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.6rem;
+    text-shadow: rgba(0, 0, 0, 0.29) 0 5px;
+    text-align: center;
+}
+
+.topBar {
+    width: 100%;
+    max-width: 490px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.timeBox, .gameButtons button, .scoreBox {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    text-shadow: rgba(0, 0, 0, 0.29) 0 4px;
+    background-color: inherit;
+}
+
+.timeBox, .scoreBox {
+    align-items: center;
+    padding: 1rem;
+    visibility: hidden;
+}
+
+.instructionsModalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructionsModalContainer p {
+    text-align: center;
+}
+
+.closeButton {
+    text-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+}
+
+.gameButtons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+}
+
+.gameButtons button {
+    border: none;
+}
+
+.instructionsModalContainer span {
+    font-size: 1.3rem;
+}
+
+.gameBox {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayQuote p {
+    font-size: 1.3rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+}
+
+.playerChoices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.choice {
+    background-color: rgba(255, 255, 255, 0.65);
+    /*text-shadow: rgba(0, 0, 0, 0.29) 1px 2px;*/
+    box-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+    width: 200px;
+    padding: 0.8rem 0;
+}
+
+.hintButton {
+    margin-top: 1rem;
+    /*text-shadow: rgba(0, 0, 0, 0.29) 1px 2px;*/
+    box-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 4rem;
+}
+
+.gameOverModal {
+    background-image: url("rockyGif.gif");
+    background-size: cover;
+    padding: 0;
+    border: black solid 3px;
+}
+
+.gameOverModal::backdrop {
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+.gameOverFlexBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 250px;
+    height: 250px;
+}
+
+.finalScore {
+    font-size: 1.3rem;
+}
+
+.playAgainButton {
+    text-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.29) 1px 2px;
+}
+

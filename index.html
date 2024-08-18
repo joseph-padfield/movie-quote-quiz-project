@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film Quote Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+<div class="spotlight"><div class="spotlightFilter"></div></div>
+
+<header>
+    <h1>Famous Last Words</h1>
+    <div class="topBar">
+        <div class="timeBox">30</div>
+        <div class="gameButtons">
+            <button class="instructionsButton">Instructions</button>
+            <button class="startGameButton">Start</button>
+        </div>
+        <div class="scoreBox">0</div>
+    </div>
+
+    <dialog class="modalContainer">
+        <div class="instructionsModalContainer">
+            <h2>Instructions</h2>
+            <p>You have <span>30 seconds</span> to prove you know your Rhett Butler from your Jack Torrence.</p>
+            <p>Once you hit <span>play</span> the quiz will run through famous movie quotes.</p>
+            <p>Each quote will have <span>three possible films</span> to select, and it’s down to you to choose the
+                right one.<br>(Once you click on an answer, there is no going back!)</p>
+            <p>If you need a clue, the <span>hint</span> button will give you the <span>release year</span> of
+                the film.</p>
+            <p>With that all said and done, you’ve gotta ask yourself a question: <br><span>“Do I feel lucky?”….Well,
+                do ya, punk?"</span></p>
+            <button class="closeButton">Close</button>
+        </div>
+    </dialog>
+
+    <main>
+        <section class="gameBox">
+            <section class="displayQuote"></section>
+            <section class="playerChoices"></section>
+            <dialog class="gameOverModal">
+                <div class="gameOverFlexBox">
+                    <h2>Game Over!</h2>
+                    <p class="finalScore"></p>
+                    <button class="playAgainButton">Play Again?</button>
+                </div>
+            </dialog>
+        </section>
+    </main>
+</header>
+
+</body>
+</html>

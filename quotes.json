@@ -1,0 +1,105 @@
+{
+  "films": [
+    {
+      "title": "Gone with the wind",
+      "quote": "Frankly, my dear, I don't give a damn.",
+      "year": "1939"
+    },
+    {
+      "title": "The Godfather",
+      "quote": "I'm gonna make him an offer he can't refuse.",
+      "year": "1972"
+    },
+    {
+      "title": "Dirty Harry",
+      "quote": "You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?",
+      "year": "1971"
+    },
+    {
+      "title": "Jerry Maguire",
+      "quote": "You had me at hello.",
+      "year": "1996"
+    },
+    {
+      "title": "The Wizard of Oz",
+      "quote": "Toto, I've a feeling we're not in Kansas anymore.",
+      "year": "1939"
+    },
+    {
+      "title": "Wall Street",
+      "quote": "Greed, for lack of a better word, is good.",
+      "year": "1987"
+    },
+    {
+      "title": "Taxi Driver",
+      "quote": "You talking to me?",
+      "year": "1976"
+    },
+    {
+      "title": "Scarface",
+      "quote": "Say hello to my little friend!",
+      "year": "1983"
+    },
+    {
+      "title": "The Shining",
+      "quote": "Here's Johnny!",
+      "year": "1980"
+    },
+    {
+      "title": "Terminator 2:  Judgment Day",
+      "quote": "Hasta la vista, baby.",
+      "year": "1991"
+    },
+    {
+      "title": "A Few Good Men",
+      "quote": "You can't handle the truth!",
+      "year": "1992"
+    },
+    {
+      "title": "Rocky",
+      "quote": "Yo, Adrian!",
+      "year": "1976"
+    },
+    {
+      "title": "Jaws",
+      "quote": "You're gonna need a bigger boat.",
+      "year": "1975"
+    },
+    {
+      "title": "The Lord of the Rings: The Two Towers",
+      "quote": "My precious.",
+      "year": "2002"
+    },
+    {
+      "title": "Forrest Gump",
+      "quote": "My mama always said life was like a box of chocolates. You never know what you're gonna get.",
+      "year": "1994"
+    },
+    {
+      "title": "The Sixth Sense",
+      "quote": "I see dead people.",
+      "year": "1999"
+    },
+    {
+      "title": "Top Gun",
+      "quote": "I feel the need - the need for speed!",
+      "year": "1986"
+    },
+    {
+      "title": "Dirty Dancing",
+      "quote": "Nobody puts Baby in a corner.",
+      "year": "1987"
+    },
+    {
+      "title": "Titanic",
+      "quote": "I'm the king of the world!",
+      "year": "1997"
+    },
+    {
+      "title": "Shrek",
+      "quote": "Ogres are like onions.",
+      "year": "2001"
+    }
+
+  ]
+}
